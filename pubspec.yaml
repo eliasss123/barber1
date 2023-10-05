@@ -1,0 +1,55 @@
+name: barber_app1
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  shared_preferences: ^2.0.15
+  connectivity_plus: ^2.3.6
+  intl: ^0.18.0
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  pin_code_fields: ^7.3.0
+  sms_autofill: ^2.0.0
+  flutter_screenutil: ^5.9.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Pacifico
+      fonts: 
+        - asset: assets/fonts/PacificoRegular.ttf
+          weight: 400
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/DMSansMedium.ttf
+          weight: 500
+    - family: Andada Pro
+      fonts: 
+        - asset: assets/fonts/AndadaProRomanRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanLight.ttf
+          weight: 300
